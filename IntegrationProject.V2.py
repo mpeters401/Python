@@ -61,6 +61,8 @@ def movie_quiz():
         if guess == answers[question_num]:
             score += 1
             print("Correct!")
+        elif guess == "0"
+            quit()
         else:
             print("Incorrect")
             print(f"{answers[question_num]} is the correct answer")
@@ -115,6 +117,8 @@ def music_quiz():
         if guess == answers[question_num]:
             score += 1
             print("Correct!")
+        elif guess == "0"
+            quit()
         else:
             print("Incorrect")
             print(f"{answers[question_num]} is the correct answer")
